@@ -1,0 +1,214 @@
+/* Começo limpar Formatações Padrão*/
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+/* Fim limpar Formatações Padrão*/
+
+/* Começo do Cabeçalho*/
+#cabecalho{
+    background-color: #000000;
+    padding: 15px 60px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#menu {
+ padding: 25px 0px 0px 0px;
+}
+
+#menu a{
+    font-size: larger;
+    color: aliceblue;
+} 
+
+#menu a:hover{
+    color: rgb(179, 179, 179);
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:link {
+    color: black;
+}
+
+#Busca{
+    width: 152px;
+    display: block;
+    
+}
+
+input#textoBusca {
+    width: 100%;
+    height: 25px;
+    padding: 0px 20px;
+    font-size: 15px;
+    outline: none;
+}
+  
+#Busca img {
+    margin: 6px 2px;
+    position: relative;
+    float: right;
+    width: 25px;
+    height: 20;
+    top: -32px;
+    right: 5px;
+}
+
+/* Fim do Cabeçalho*/
+
+/* Começo dos Banners*/
+.banner{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    flex-direction: column;
+    display: inline-block;
+    position: relative;
+    padding: 0px 00px 0px 30
+    80px;    
+}
+
+.banner p {
+    position: absolute;
+    top: 15px;
+    right: 350px;
+    font-size: 40px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.banner h2 {
+    position: absolute;
+    padding: 610px 30px; 
+    top: 135px;
+    font-size: 40px;
+    color: white;
+}
+/* Fim dos Banners*/
+
+/* Começo Informações da Página*/
+#informacoespag {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: stretch;
+    padding: 50px 100px ;
+    background-color: #000000;
+}
+
+
+#topicos h1 {
+    margin: 0px 0px 10px 80px;
+    color: white;
+}
+
+#topicos p {
+    margin: 0px 0px 10px 80px;
+    color: white;
+}
+
+#topicos p {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+#topicos p:hover{
+    color: rgb(179, 179, 179);
+}
+
+#topicos a {
+    text-decoration: none;
+}
+#topicos p:link {
+    color: black;
+}
+
+
+
+
+
+/* Fim Informações da Página*/
+
+/* Começo das Noticías*/
+#area-noticia{
+    padding: 20px 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+#noticias a {
+    text-decoration: none;
+}
+
+#noticias a:link {
+    color: black;
+}
+
+#noticias p {
+    padding: 0px 0px 20px 0px;
+}
+/* Fim das Noticías*/
+
+#separador {
+    background-color: black;
+    padding: 15px;
+}
+
+/* Começo da Agenda*/
+
+/* Começo Separador Banner*/
+#area-agenda h1 {
+    padding: 10px 0px 0px 50px;
+}
+/* Fim Separador Banner*/
+
+#agenda {
+    padding: 0px 0px 20px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+/* Fim da Agenda*/
+
+/* Começo do Rodapé*/
+#rodape{
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    background: #000000;
+    
+    /*display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;*/
+}
+
+h5{
+    font-size: medium;
+    color: rgb(255, 255, 255);
+}
+
+p{
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+/* Fim do Rodapé*/
+
+
+
+
+
+
+
+

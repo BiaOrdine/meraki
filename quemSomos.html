@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meraki Arte</title>
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="CSS/style_quemSomos.css">
+
+    </head>
+<body>
+
+    <!-- Começo do Cabeçalho -->
+
+<header>
+    <div id="cabecalho">
+        <div id="logo">
+            <img  src="imagens/imagem-logo.jpg" width="150px">
+        </div>
+<div id="pesquisas">
+        <div id="menu">
+            <a href="index.html">Home | </a>
+            <a href="produtos.html">Produtos | </a>
+            <a href="quemSomos.html">Quem Somos?</a>
+        </div>
+
+        <div id="Busca">
+            <input type="text" id="textoBusca" placeholder="Buscar..."/>
+            <a href="#"><img src="imagens/lupa.png" width="20px"  id="lupaBusca" alt="Buscar"/></a>
+          </div>
+</div>
+    </div>
+</header>
+    <!-- Final do Cabeçalho -->
+
+    <!-- Começo da Tela Quem Somos -->
+
+    <!-- Foto Logo -->
+    <div class="logo">
+        <img src="imagens/imagem-logo2 (1).jpg" height="500px" width="1200px" >
+        </div>
+    <!-- Fim foto logo -->
+
+    
+    <!-- Começo parte dos colaboradores -->
+    <div id="area-principal">
+
+       <div id="informaçoesPag">
+            <div id="topicos">
+                <h1>Colaboradores</h1>
+                <a href="https://www.rihappy.com.br/"><p>Ri Happy</p></a>
+                <a href="https://www.mercadolivre.com.br/"><p>Mercado Livre</p></a>
+                <a href="https://www.cnnbrasil.com.br/"><p>CNN</p></a>
+            </div>
+
+            <div id="topicos">
+                <h1>Tópicos</h1>
+                <a href="#fundadora"><p>Fundadora</p></a>
+                <a href="#historia-logo"><p>História da Logo</p></a>
+                <a href="#cadastro"><p>Contate-nos</p></a>
+                <a href="#textoAgradecimentos"><p>Agradecimentos</p></a>
+            </div>
+        </div>
+    <!-- Fim parte dos colaboradores -->
+
+    <!-- Começo sobre a empresa -->
+    <div id="sobre-a-empresa">
+        <div id="fundadora">
+            <h1>Fundadora</h1>
+            <img src="imagens/imagem1-pag3.jpg" alt="">
+            <h2>Meu nome é Bianca Ordine, <br> fundei minha empresa com <br> 19 anos, e atualmente sou CEO <br> da Meraki Arte.</h2>
+        </div>
+
+        <div id="historia-logo">
+            <h1>Por de trás do nosso nome!</h1>
+            <img src="imagens/imagem-logo3.jpg" alt="">
+            <h2>Meraki é uma palavra de origem grega (μεράκι). <br> Meraki significa que você deixa um pedaço de si mesmo, <br> uma parte da sua alma, do seus sentimentos, em tudo o que você faz. <br> A ideia é colocar um pouco de amor em cada detalhe, <br> assim como a nossa empresa faz.</h2>
+        </div>
+    </div>
+    <!-- Fim sobre a empresa -->
+
+    <!-- Começo Separador Formulário-->
+    
+    <div id="separador"></div>
+    
+    <!-- Fim Separador Formulario-->
+
+    <!-- Inicio cadastro do usúario -->
+    <div id="cadastro">
+        <h1>Contate-nos</h1>
+
+        <label>Nome</label><br>
+        <input class="inputs" id="nome" type="text" name="nome" placeholder="Digite seu nome" required>
+        <br>
+        <label>Sobrenome</label><br>
+        <input class="inputs" id="sobrenome" type="text" name="sobrenome" placeholder="Digite seu sobrenome" required>
+        <br>
+        <label>E-mail</label><br>
+        <input class="inputs" id="email" type="text" name="email" placeholder="Digite seu e-mail" required>
+        <br>
+        <label>Telefone</label><br>
+        <input class="inputs" id="telefone" type="tel" name="telefone" placeholder="Digite seu telefone" required>
+        <br>
+        <label>Deixe-nos uma mensagem</label><br>
+        <input class="inputs" id="mensagem" type="text" name="mensagem" placeholder="Digite sua mensagen" required>
+        <br>
+        <button id="botao" onclick="enviar">Enviar</button>
+    </div>
+        
+    <!-- Fim cadastro do usúario -->
+
+
+    <!-- Começo Separador Agradecimentos-->
+    <br>
+    <div id="separador"></div>
+    <!-- Fim Separador Agradecimentos-->
+
+    <!-- Começo Agradecimentos -->
+    <div id="textoAgradecimentos">
+        <h1>Agradecimentos!</h1>
+    <h2>A Deus, pela minha vida e por me ajudar a ultrapassar todos os obstáculos. <br>
+        Aos meus familiares e amigos, que me incentivaram nos momentos difíceis  <br> e compreenderam minha ausência enquanto me dedicava a esse grande projeto. <br>
+        Aos professores, pelas correções e ensinamentos que <br> me permitiram a apresentar um melhor desempenho profissional</h2>
+    
+    </div>
+    <!-- Fim Agradecimentos -->
+
+    <!-- Começo do Rodapé -->
+        <div id="rodape">
+           <h5>@meraki.arte.unica <br> Todos os diretos reservados!</h5>
+        </div>
+    <!-- Fim do Rodapé -->
+
+    <!-- Fim da Tela Quem Somos -->
+    
+    <!-- Meu Script -->
+    <script src="script.js"></script>
+
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
